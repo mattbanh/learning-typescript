@@ -1,0 +1,56 @@
+[
+  {
+    "chapter": "1. From JavaScript to TypeScript",
+    "notes": [
+      {
+        "subheader": "Vanilla JavaScript's Pitfalls",
+        "notes": [
+          {
+            "subheader": "Costly Freedom",
+            "notes": ["Provides no restrictions in how you structure your code"]
+          },
+          {
+            "subheader": "Loose Documentation",
+            "notes": ["There are no specifications", "JSDoc is not formalized"]
+          }
+        ]
+      },
+      {
+        "subheader": "TypeScript!",
+        "notes": [
+          "TypeScript was created at Microsoft in the early 2010s headed by Anders Hejlsberg",
+          "TypeScript is a programming language, type checker, compiler, and language service",
+          {
+            "subheader": "This is a test",
+            "notes": ["This is a further test", "This is the final test"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "2. From JavaScript to TypeScript",
+    "notes": [
+      {
+        "subheader": "Vanilla JavaScript's Pitfalls",
+        "notes": [
+          {
+            "subheader": "Costly Freedom",
+            "notes": ["Provides no restrictions in how you structure your code"]
+          },
+          {
+            "subheader": "Loose Documentation",
+            "notes": ["There are no specifications", "JSDoc is not formalized"]
+          }
+        ]
+      },
+      {
+        "subheader": "TypeScript!",
+        "notes": [
+          "TypeScript was created at Microsoft in the early 2010s headed by Anders Hejlsberg",
+          "TypeScript is a programming language, type checker, compiler, and language service"
+        ]
+      }
+    ]
+  }
+]
