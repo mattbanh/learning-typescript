@@ -6,7 +6,9 @@ import Subsection from "./(components)/Subsection";
 import ChapterNotes from "./(components)/Chapter";
 
 async function getData(slug) {
-  const res = await fetch(`http://localhost:3000/api/chapter-notes/${slug}`);
+  const res = await fetch(`http://localhost:3000/api/chapter-notes/${slug}`, {
+    cache: "no-store",
+  });
 
   if (!res.ok) {
     //   // This will activate the closest `error.js` Error Boundary

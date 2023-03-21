@@ -5,12 +5,16 @@ export default function Note({ note }) {
         <h3 className="font-semibold text-sm mb-2">{note.subheader}</h3>
         <ul className="text-xs">
           {note.notes.map((individualNote, i) => {
-            return <li key={i}>{individualNote}</li>;
+            return (
+              <li className="list-disc ml-4" key={i}>
+                {individualNote}
+              </li>
+            );
           })}
         </ul>
       </article>
     </li>
   ) : (
-    <li>{note}</li>
+    <li className="list-disc ml-4 mb-2 text-xs">{note}</li>
   );
 }
